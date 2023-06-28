@@ -1,4 +1,4 @@
-Open : https://remix.ethereum.org\n
+Open : https://remix.ethereum.org
 Create New File and Copy This Script And Paste To Your File
 
 ```
@@ -31,7 +31,7 @@ contract Register {
     }
 }
 ```
-Change The **GITHUBNAME** With Your Github Name \n
-And **YOURADDRESS** With Your Address \n
-Click Compile\n
-after that click Deploy Change ENVIRONMENT with Injected Provider - MetaMask and click deploy \n
+Change The **GITHUBNAME** With Your Github Name 
+And **YOURADDRESS** With Your Address 
+Click Compile
+after that click Deploy Change ENVIRONMENT with **Injected Provider - MetaMask** and click Deploy 
