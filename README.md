@@ -1,7 +1,8 @@
 Open : https://remix.ethereum.org 
 Create New File and Copy This Script And Paste To Your File
 
-``` // SPDX-License-Identifier: MIT
+```
+// SPDX-License-Identifier: MIT
 pragma solidity ^0.8.0;
 
 contract Register {
@@ -16,8 +17,8 @@ contract Register {
     Referral[] public referrals;
     
     constructor() {
-        github = "ganti_pake_username_github_kalian";
-        owner = “ganti_pake_address_kalian”;
+        github = "GITHUBNAME";
+        owner = YOURADDRESS;
     }
     
     function addReferral(address _referralAddress, string memory _referralString) external {
@@ -28,9 +29,9 @@ contract Register {
     function totalReferrals() public view returns (uint256) {
         return referrals.length;
     }
-} ```
-
-Change The Github Name With Your Github Name 
-And Address With Your Address 
-Clikc Compile
+}
+```
+Change The **GITHUBNAME** With Your Github Name 
+And **YOURADDRESS** With Your Address 
+Click Compile
 after that click Deploy Change ENVIRONMENT with Injected Provider - MetaMask and click deploy 
